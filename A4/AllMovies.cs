@@ -45,13 +45,12 @@ namespace A4
 
 
 
-                while (movieSearch.Length < 1)
+                while (movieSearch.Length <= 1)
                 {
                     Console.WriteLine("***You must enter a movie title or keyword!***\n");
                     Console.WriteLine("Enter a keyword/title to search for a movie");
                     movieSearch = Console.ReadLine().ToUpper();
                 }
-
 
                 if (movieSearch.Length > 1)
                 {
