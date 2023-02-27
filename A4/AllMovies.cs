@@ -83,13 +83,14 @@ namespace A4
 
                         }
                     }
+                    if (!found)
+                    {
+                        Console.WriteLine("Uh oh! Movie(s) not found.");
+                    }
+
                 }
             }
-            else if (!found)
-            {
-                Console.WriteLine("Uh oh! Movie(s) not found.");
-            }
-
+          
 
             Console.WriteLine("");
             Console.WriteLine("*************************************************\n");
